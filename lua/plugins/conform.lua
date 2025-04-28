@@ -2,6 +2,15 @@ return {
   "stevearc/conform.nvim",
   event = { "BufReadPre", "BufNewFile" },
   opts = {
+    formatters = {
+      yamlfix = {
+        env = {
+          YAMLFIX_WHITELINES = "1",
+          YAMLFIX_quote_basic_values = "true",
+          YAMLFIX_quote_representation = "\"",
+        }
+      }
+    },
     formatters_by_ft = {
       python = { "isort", "ruff_format" },
       yaml = { "yamlfix" },
