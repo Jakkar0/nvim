@@ -5,6 +5,7 @@ return {
 	},
 	opts = {
 		ensure_installed = {
+			"ansible-lint", -- ansible linter
 			"goimports", -- go formatter
 			"isort", -- python formatter
 			"mdformat", -- markdown formatter
