@@ -8,6 +8,8 @@ return {
           YAMLFIX_WHITELINES = "1",
           YAMLFIX_quote_basic_values = "true",
           YAMLFIX_quote_representation = "\"",
+          YAMLFIX_LINE_LENGTH = "100000", -- dont worry boutit
+          YAMLFIX_SEQUENCE_STYLE = "keep_style",
         }
       }
     },
