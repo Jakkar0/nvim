@@ -13,6 +13,7 @@ return {
 			"marksman",
 			"pyright",
 			"terraformls",
+			"ts_ls",
 			"yamlls",
 		},
 		automatic_installation = true,
