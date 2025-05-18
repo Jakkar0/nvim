@@ -1,4 +1,4 @@
 return {
-  'Bekaboo/dropbar.nvim',
-  opts = {}
+	"Bekaboo/dropbar.nvim",
+	opts = {},
 }
