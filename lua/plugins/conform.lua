@@ -19,7 +19,9 @@ return {
       terraform = { "terraform_fmt" },
       markdown = { "mdformat" },
       go = { "goimports", "gofmt" },
-      lua = { "stylua" }
+      lua = { "stylua" },
+			javascript = { "biome" },
+			typescript = { "biome" },
     }
   },
   keys = {

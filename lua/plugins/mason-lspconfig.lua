@@ -7,6 +7,7 @@ return {
 		ensure_installed = {
 			"ansiblels",
 			"bashls",
+			"biome",
 			"gopls",
 			"jsonls",
 			"lua_ls",
