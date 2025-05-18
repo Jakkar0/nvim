@@ -25,7 +25,7 @@ vim.o.expandtab = true   -- Convert tabs to spaces
 vim.o.shiftwidth = 2     -- Number of spaces to indicate a tab
 vim.o.tabstop = 2        -- Number of spaces to insert for tab
 vim.o.softtabstop = 2    -- Number of spaces for soft tabs
-vim.o.smartindent = true -- Make indenting smart
+vim.o.smartindent = true -- Smart autoindenting when starting a new line
 
 -- Indentation (file specific)
 vim.cmd "autocmd FileType python setlocal ts=4 sw=4 sts=4"
