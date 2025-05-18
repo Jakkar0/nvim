@@ -1,0 +1,5 @@
+root = true
+
+# just following stylua defaults ¯\_(ツ)_/¯
+[*.lua]
+indent_style = tab
