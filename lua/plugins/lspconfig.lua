@@ -43,6 +43,9 @@ return {
 		-- terraform
 		vim.lsp.enable("terraformls")
 
+		-- javascript/typescript
+		vim.lsp.enable("ts_ls")
+
 		-- yaml
 		vim.lsp.enable("yamlls")
 	end,
