@@ -13,6 +13,7 @@ return {
 
 		telescope.setup({
 			defaults = {
+				wrap_results = true,
 				mappings = {
 					-- allow using ctrl + t to send telescope results to trouble
 					i = { ["<c-t>"] = open_with_trouble },
