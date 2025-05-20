@@ -9,6 +9,7 @@ return {
 				enabled = false,
 				color_mode = false, -- enable color for kind's texts, not just kind's icons
 			},
+			fidget = true,
 			mason = true,
 			lsp_trouble = true,
 		},

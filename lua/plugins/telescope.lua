@@ -9,6 +9,8 @@ return {
 
 		local telescope = require("telescope")
 
+		telescope.load_extension("fidget")
+
 		telescope.setup({
 			defaults = {
 				mappings = {
@@ -27,6 +29,14 @@ return {
 			"<cmd>Telescope current_buffer_fuzzy_find<cr>",
 			mode = "n",
 			desc = "Telescope: Grep current buffer",
+		},
+		{
+			"<leader>mh",
+			function()
+				require("telescope").extensions.fidget.fidget()
+			end,
+			mode = "n",
+			desc = "Telescope: Fidge message history",
 		},
 	},
 }
