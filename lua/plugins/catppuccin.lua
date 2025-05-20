@@ -10,7 +10,6 @@ return {
 				color_mode = false, -- enable color for kind's texts, not just kind's icons
 			},
 			mason = true,
-			noice = true,
 			lsp_trouble = true,
 		},
 	},
